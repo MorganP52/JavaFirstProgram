@@ -1,10 +1,10 @@
 public class Car {
 
    // add attributes
-   public String Name;
-   public String Model;
-   public String Color;
-   public String Year;
+   private String Name;
+   private String Model;
+   private String Color;
+   private String Year;
 
    // add behaviour getters and setters (methods)
 
