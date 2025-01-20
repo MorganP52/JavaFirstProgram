@@ -17,36 +17,36 @@ public class Main {
         Car carTwo = new Car();
         Car carThree = new Car();
 
-        carOne.Name = ("Ford");
-        carOne.Model = ("Bronco");
-        carOne.Color = ("Red");
-        carOne.Year = ("1980");
-        System.out.println(carOne.Name);
-        System.out.println(carOne.Model);
-        System.out.println(carOne.Color);
-        System.out.println(carOne.Year);
+        carOne.setName(("Ford"));
+        carOne.setModel(("Bronco"));
+        carOne.setColor(("Red"));
+        carOne.setYear(("1980"));
+        System.out.println(carOne.getName());
+        System.out.println(carOne.getModel());
+        System.out.println(carOne.getColor());
+        System.out.println(carOne.getYear());
         System.out.println();
 
 
-        carTwo.Name = ("Dodge");
-        carTwo.Model = ("Charger");
-        carTwo.Color = ("Black");
-        carTwo.Year = ("1969");
-        System.out.println(carTwo.Name);
-        System.out.println(carTwo.Model);
-        System.out.println(carTwo.Color);
-        System.out.println(carTwo.Year);
+        carTwo.setName(("Dodge"));
+        carTwo.setModel(("Charger"));
+        carTwo.setColor(("Black"));
+        carTwo.setYear(("1969"));
+        System.out.println(carTwo.getName());
+        System.out.println(carTwo.getModel());
+        System.out.println(carTwo.getColor());
+        System.out.println(carTwo.getYear());
         System.out.println();
 
 
-        carThree.Name = ("Chevrolet");
-        carThree.Model = ("Corvette");
-        carThree.Color = ("Racing Blue");
-        carThree.Year = ("2007");
-        System.out.println(carThree.Name);
-        System.out.println(carThree.Model);
-        System.out.println(carThree.Color);
-        System.out.println(carThree.Year);
+        carThree.setName(("Chevrolet"));
+        carThree.setModel(("Corvette"));
+        carThree.setColor(("Racing Blue"));
+        carThree.setYear(("2007"));
+        System.out.println(carThree.getName());
+        System.out.println(carThree.getModel());
+        System.out.println(carThree.getColor());
+        System.out.println(carThree.getYear());
 
     }
 }
